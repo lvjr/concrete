@@ -13,14 +13,14 @@ The `concrete` bundle provides a collection of flat beamer themes for making LaT
 It consists of the following seven beamer themes:
 
 - light background themes
-  - beamer theme bernoulli
-  - beamer theme fermat
-  - beamer theme lagrange
-  - beamer theme riemann
+  - beamer theme cbernoulli
+  - beamer theme cfermat
+  - beamer theme clagrange
+  - beamer theme criemann
 - dark background themes
-  - beamer theme dirichlet
-  - beamer theme gauss
-  - beamer theme mobius
+  - beamer theme cdirichlet
+  - beamer theme cgauss
+  - beamer theme cmobius
 
 ## 2\. Usage
 
@@ -28,10 +28,10 @@ After installing this bundle, you can write a document like this:
 
 ```
 \documentclass[xcolor={rgb}]{beamer}
-\usetheme{bernoulli}
+\usetheme{cbernoulli}
 \begin{document}
 
-\title{Beamer Theme Bernoulli}
+\title{Beamer Theme cBernoulli}
 \subtitle{A nice theme for LaTeX presentations}
 \author{Author Name}
 \institute{Institute Name}
